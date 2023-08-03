@@ -9,12 +9,12 @@ overflow-x: hidden;
 
 .dot{
   position:absolute;
-  width:1440px;
-  height: 1000px;
+  width:1920px;
+  height: 1440px;
   top:0px;
   background-image:url("images/dot-edit.png");
-  background-repeat:repeat-x;
-  object-fit:cover;
+  background-repeat:no-repeat;
+  
   z-index: -1;
 }
 
@@ -135,7 +135,7 @@ letter-spacing: -1.2px;
 .blog{
   display: flex;
 width: 1280px;
-padding: 0px 32px;
+padding: 100px 32px;
 justify-content: center;
 align-items: center;
 gap: 64px;
